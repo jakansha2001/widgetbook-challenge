@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetbook_challenge/home_page.dart';
+import 'package:widgetbook_challenge/home/view/home_page.dart';
 
 /// The app.
 class App extends StatelessWidget {
@@ -10,7 +10,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
     );
   }
